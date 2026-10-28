@@ -1,0 +1,41 @@
+# AGENTS.md
+
+## Project context
+This repository contains a coursework notebook and supporting data files.
+The main file is `Question.ipynb`.
+
+## Primary goal
+Help complete the coursework correctly while preserving the teacher's original notebook structure.
+
+## Editing rules
+- Only modify cells, TODO blocks, placeholders, or function bodies that are clearly intended for student completion.
+- Preserve teacher-provided markdown, comments, imports, notebook order, and surrounding structure.
+- Do not rewrite correct existing code.
+- Do not reformat the whole notebook.
+- Do not rename functions or variables unless necessary for correctness.
+- Make the smallest correct set of edits.
+
+## Coursework style
+- Keep explanations concise and natural.
+- Avoid overly polished or AI-sounding prose.
+- Prefer simple, correct implementations over clever ones.
+- Add comments only when they clarify non-obvious logic.
+
+## Technical preferences
+- Use standard libraries already appropriate for the notebook, such as numpy, matplotlib, and sklearn.
+- Avoid adding unnecessary dependencies.
+- Check array shapes before finalizing code.
+- When implementing math-related sections, follow the notebook wording and surrounding code conventions.
+
+## Output discipline
+- Produce only the plots, tables, and outputs required by the notebook.
+- Do not add extra analysis unless explicitly requested.
+- If a requirement is ambiguous, explain the ambiguity briefly instead of inventing extra work.
+
+## Before editing
+- Identify which exact cells or sections will be changed.
+- State which parts will remain untouched.
+
+## After editing
+- Summarize the exact edits made.
+- Mention any assumptions or unresolved ambiguity.
